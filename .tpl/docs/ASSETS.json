@@ -1,0 +1,510 @@
+[
+  {
+    "file": "public/templates/goalz/images/logo.svg",
+    "source": "https://framerusercontent.com/images/39StbBw4nSlATLKJJA3fJ0Se3Vw.svg?width=115&height=23",
+    "bytes": 1971,
+    "sha256": "283ff2c3d26b15f0d3436211e37755211262272242bf3188022f29732a5c8712",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/mark.svg",
+    "source": "https://framerusercontent.com/images/tlE5LrRgQuonrZuylp7dM3WqAk.svg?width=25&height=18",
+    "bytes": 449,
+    "sha256": "a64edb7565c09edac655ff629f20f7abe35a7cf2f703ab9afacf9bf296bdf17b",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/about.webp",
+    "source": "https://framerusercontent.com/images/ORXqDSWbbb9wmRT4vraKtsN6Rrg.jpg?width=1920&height=1073",
+    "bytes": 259514,
+    "sha256": "0b867d32568b6315eedc966244ff69b0006b903f316ccb104bf5a3bd8db08635",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/leg.webp",
+    "source": "https://framerusercontent.com/images/Ss1GauvsBBmN8xmgKypuDJsz5KE.png?width=960&height=1200",
+    "bytes": 167634,
+    "sha256": "ba17e1908ff7dfd4cfd77ca70bdcdcc799b381da8aaa093a62a1e7d2aba883aa",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/grain.webp",
+    "source": "https://framerusercontent.com/images/KtjuG7yx533JoFQZtxBo4WkJdg.png?width=1024&height=1024",
+    "bytes": 52080,
+    "sha256": "de47ae796ccaa94598b997aa571a7cce56fdbf566aa8589adbdf5d2f383a620e",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/pitch.webp",
+    "source": "https://framerusercontent.com/images/MuMXBCqV225kClRHE1ytmTqxo.jpg?width=1999&height=1333",
+    "bytes": 392022,
+    "sha256": "b8801efe53af1d0fa2392b74a1bf6a7a0ab86214e16d7f11c4ed56422753a5d9",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/cta.webp",
+    "source": "https://framerusercontent.com/images/WhInXTVeOxHjtBoaXjEKzBJQ.png?width=1920&height=2011",
+    "bytes": 641896,
+    "sha256": "9f7640e84fbeb194255497ac2cb0d2a50e4fdf9cb0a405726a244c250f1ccf8e",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/marco.webp",
+    "source": "https://framerusercontent.com/images/4sajKScGAuZAJZ8S92gpVJLr2k.png?width=1080&height=1080",
+    "bytes": 91706,
+    "sha256": "749143ae84d5817f7c450b44d373a6874ad468e41aafb8fe76ba97e4d68d02c5",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/samira.webp",
+    "source": "https://framerusercontent.com/images/j0QOnugBGDkE4sqCPZWxmDRlMSg.png?width=1080&height=1080",
+    "bytes": 76190,
+    "sha256": "424a973a5a1d1aa6e9085fb54b47e7ca0c978c87c709db11c3cfe3d4983b49d3",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/theo.webp",
+    "source": "https://framerusercontent.com/images/MizBMR5qD0g2QJzazrgwNo1dss.png?width=1080&height=1080",
+    "bytes": 79252,
+    "sha256": "5931ef33dce8766874e6c9b27ffbd569f3f16414ea2a2dbbf8173486ec945854",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/lena.webp",
+    "source": "https://framerusercontent.com/images/JK5rEMLemrghKDrs6Oa9syfKJg.png?width=1080&height=1080",
+    "bytes": 63778,
+    "sha256": "f100d306c04112daf7b6897d3de4391d6cf407bb801790972dc6f52da9528e4c",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/aaron.webp",
+    "source": "https://framerusercontent.com/images/8uVpHXpBc0FwqlEM2VxQMu0ZrQ.png?width=1080&height=1080",
+    "bytes": 94070,
+    "sha256": "8174b43649c3151fde94cd26b4b16df038afb5d747ddc2339cfa323b0ca67e79",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/maya.webp",
+    "source": "https://framerusercontent.com/images/5X5QNj5Y3eXc8AnL48yzd5F2s.png?width=1080&height=1080",
+    "bytes": 99570,
+    "sha256": "ccee232425740dfbec6ec174e3bfb64328368f7635ce7f7540726822cba5a058",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/hero.webp",
+    "source": "https://framerusercontent.com/images/JTP1mpqMm8vZFaojxLCWMxRl4ZU.png?width=2880&height=1918",
+    "bytes": 211870,
+    "sha256": "e75c7a43f5f213ce8f1418f01bff677c10f36687806045700df30de24fd457d5",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/player-one.webp",
+    "source": "https://framerusercontent.com/images/BRURdPk6opNMOGJ9C5nBbhk59k8.png?width=960&height=1200",
+    "bytes": 100086,
+    "sha256": "525d738b9f820a35a7374f4a6fa8af3f57635f89f4d27f91ac655f315481c353",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/player-two.webp",
+    "source": "https://framerusercontent.com/images/SjOa29HhKYQsao9Q8Z0BNCSlGos.png?width=673&height=1200",
+    "bytes": 144100,
+    "sha256": "e139cfe4bc44155b171bf2fac2b8739b38f4534e3ea757b91583f6d2ad7b1ff1",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/player-three.webp",
+    "source": "https://framerusercontent.com/images/8hoSXWYKbogOvxsFQ1wK6ABTU4.png?width=1024&height=1536",
+    "bytes": 59784,
+    "sha256": "95e6cbb6de8ea6074e390d2297e272aa7bdb177ff8379358e9cb1de02f0e9fd6",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/ball.webp",
+    "source": "https://framerusercontent.com/images/U89IWm1vgQK6XyRKZGhaHdkPUo.png?width=1146&height=1200",
+    "bytes": 107048,
+    "sha256": "05c1d7c7a2d5f5fa21175c1accb5534dfef0e6876f3bef7c7a1387ab2e0a7829",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/goalkeeper.webp",
+    "source": "https://framerusercontent.com/images/3XxGAsPfw8ewbaIBdAUqXhO0MA.png?width=2880&height=1918",
+    "bytes": 272592,
+    "sha256": "bb7ec44dfc44d60f50ad64afb1fab450e1e486e1f24641e08524b34e98b7f485",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/partner-one.svg",
+    "source": "https://framerusercontent.com/images/hedD7HR6KExQyjOWKU5bleUaQ.svg?width=168&height=41",
+    "bytes": 3152,
+    "sha256": "90b6094a003e06f4bdf61f756b6797bb1a9324684504d79faf6209a57cfdc8a5",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/partner-two.svg",
+    "source": "https://framerusercontent.com/images/XdIgZYrWgN2zhVXSZq6i5oJ5mFI.svg?width=140&height=30",
+    "bytes": 2689,
+    "sha256": "83b569ae60706510ddb583f5a68425a288aa11ce549e31d8aaddf97009421238",
+    "license": "参考站素材，权利及再分发许可待确认"
+  },
+  {
+    "file": "public/templates/goalz/images/events-hero.webp",
+    "source": "https://framerusercontent.com/images/fCM7nnXJThurxp0Kd4jZHEV7GQw.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 200510,
+    "sha256": "4c96d0770bb9eed9d65276fd87ebe3877bf683b67756a1d167876f4a0da2007b",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/event-one.webp",
+    "source": "https://framerusercontent.com/images/VevQl4dsTjdpbAyo66Xfe3lQQ.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 769990,
+    "sha256": "1d6b118db9a36264f21dfbc762973d229fe2876129cfaa0a7a499cf5381e1cff",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/event-two.webp",
+    "source": "https://framerusercontent.com/images/akxnC2CQFDOCrh4H7cTq5xUuhU.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 837956,
+    "sha256": "d87772199a3c7302ca487c4ab282945a05fb6dc1875016399970802e2f558827",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/event-three.webp",
+    "source": "https://framerusercontent.com/images/ROgfhkFZcZKubF1kkEb2E21cBJ0.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 751766,
+    "sha256": "064f1b3300107b15eb01cb3297cecc623e73f242bd83734ffbb51c93020d13c1",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/event-four.webp",
+    "source": "https://framerusercontent.com/images/bBmtqcRkdSrVhY26Fv6LXeTh4c.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 340346,
+    "sha256": "06d015d56318bacfbf79e3defd3c7118f034ef2d958310471a73f89847b549bf",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/event-five.webp",
+    "source": "https://framerusercontent.com/images/UMx6lXoSzGvXVwuFzGTBx26Esis.jpg?scale-down-to=2048&width=2400&height=1358",
+    "bytes": 479738,
+    "sha256": "0eb6d6e1d9afb5aee33f065b56ffbcc90363435ab2963b5733c60418300f480f",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/event-six.webp",
+    "source": "https://framerusercontent.com/images/TvOPR9Drfff96KVztAFANYAEqR4.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 564890,
+    "sha256": "1ca97662a9df5824341fd02c02e9414f6acad1a7d98ff0cbbf60ab64277ea03b",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/gallery-hero.webp",
+    "source": "https://framerusercontent.com/images/8luXmtI1JhoLnzTuEu1eAoLnw.jpg?scale-down-to=2048&width=2400&height=1715",
+    "bytes": 437574,
+    "sha256": "01776d37a10152a4d718e3e443ea4c9ece2d5e8a96a72d1a9c4cd57fcd363501",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/video-one.webp",
+    "source": "https://framerusercontent.com/images/ZJJ3HpDvW9i83aZYV33MRS1EiQ.jpg?scale-down-to=1024&width=1920&height=1440",
+    "bytes": 208684,
+    "sha256": "b3b5e917aa856b186828c4257070238a6aebeebeb8d9dbbb0e1004af256e7acf",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/video-two.webp",
+    "source": "https://framerusercontent.com/images/KgVBy7PZZzwNmFGmh8hRDE19bw.jpg?scale-down-to=1024&width=1920&height=1313",
+    "bytes": 148288,
+    "sha256": "a086b869281699ceae606e8b331ac548f83e94e1a01eb770ab58e852afa01ada",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/video-three.webp",
+    "source": "https://framerusercontent.com/images/GVRdscacIm2hQ6DuL34TKcOYFIE.png?scale-down-to=1024&width=1200&height=678",
+    "bytes": 41684,
+    "sha256": "a47a9c5d961bebd750a277767a3f03bf58c76264f1022b7271c37aa7d784e4b3",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/video-four.webp",
+    "source": "https://framerusercontent.com/images/DnAKD7tTUY57WFuZIwBRdqilQw.jpg?scale-down-to=1024&width=1500&height=841",
+    "bytes": 102678,
+    "sha256": "ba8239175d1a5f8e5adc8b5cd549cdfe794bc817c33bdba6ab52c0270d1a9877",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/photo-one.webp",
+    "source": "https://framerusercontent.com/images/TI6399FhR52h5an3SQGinHx3po.jpg?scale-down-to=1024&width=1920&height=1280",
+    "bytes": 234660,
+    "sha256": "f8adbfd37fdaf678c88b259395ea6ab25f10c11e882d65d1f90555e8e157f02a",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/photo-two.webp",
+    "source": "https://framerusercontent.com/images/sYtHGgtkYLFjWegCeRnxbweWY54.jpg?scale-down-to=1024&width=1920&height=1277",
+    "bytes": 307336,
+    "sha256": "1b3c8dc4dfde077c5942d49c7b9ecbb97ff2974df1121f78e00aad3b99b29643",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/photo-three.webp",
+    "source": "https://framerusercontent.com/images/ewqiBNe8xgB98rjoAx89F9mKNhE.jpg?scale-down-to=1024&width=1920&height=1079",
+    "bytes": 157588,
+    "sha256": "38e7695642d8fbeed3f75b18d192078b8cf3049db17c3230ff30021d147b97fd",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/photo-four.webp",
+    "source": "https://framerusercontent.com/images/tCEa70xRU8XZOmzi6wrS4HEKlo.jpg?scale-down-to=1024&width=1920&height=1280",
+    "bytes": 183972,
+    "sha256": "77a817737bf4b8887f41089d010e05f5cd590c27beef84e7cf6eb24bf4a13ca9",
+    "license": "参考页实际使用的图片或Pexels视频，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/videos/match-one.mp4",
+    "source": "https://www.pexels.com/download/video/6077718/",
+    "bytes": 3267825,
+    "sha256": "605cb5a99c320f5083b5eaa811aaa82f31fcad78a21b6001e7d4973e32d52f6f",
+    "transformation": "本机WSL FFmpeg：H.264、720p、25fps、CRF27、无音轨、faststart；原视频另存本机任务目录。",
+    "license": "Pexels视频，使用前核实许可"
+  },
+  {
+    "file": "public/templates/goalz/videos/match-three.mp4",
+    "source": "https://www.pexels.com/download/video/6079621/",
+    "bytes": 529917,
+    "sha256": "40c227107e064344966d2f6f64456ba4d2f0593e9464beee7e52cb0db0c19e50",
+    "transformation": "本机WSL FFmpeg：H.264、720p、25fps、CRF27、无音轨、faststart；原视频另存本机任务目录。",
+    "license": "Pexels视频，使用前核实许可"
+  },
+  {
+    "file": "public/templates/goalz/videos/match-four.mp4",
+    "source": "https://www.pexels.com/download/video/6079623/",
+    "bytes": 792132,
+    "sha256": "ac9269777aa0ebf11b6262fc4679d52a2f0346172c00fb445621397f0c8c05e3",
+    "transformation": "本机WSL FFmpeg：H.264、720p、25fps、CRF27、无音轨、faststart；原视频另存本机任务目录。",
+    "license": "Pexels视频，使用前核实许可"
+  },
+  {
+    "file": "public/templates/goalz/images/schedule-hero.webp",
+    "source": "https://framerusercontent.com/images/ojG1cd7wlqmK2dfY6A6g9l6KI.jpg?scale-down-to=2048&width=2400&height=1800",
+    "bytes": 615576,
+    "sha256": "d839fc399db193ff3a9aea6026edb8515ce2fd304249abedd6c3ab4262b93911",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/team-hero.webp",
+    "source": "https://framerusercontent.com/images/GATRUeVk3g5oeIZ9cqfJ1ew39M.jpg?scale-down-to=2048&width=2400&height=1601",
+    "bytes": 930130,
+    "sha256": "f4ded9c4c21e8c1556cf058cf1146fdac81a9290c0e13e9d2b73cc52048e6221",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/luca.webp",
+    "source": "https://framerusercontent.com/images/9P6WjUlZzeVGViMALMUv9kBDsg.png?width=1080&height=1080",
+    "bytes": 91726,
+    "sha256": "a6a4340a0263dde7be1e7e6644285ced01b30b6b7798b3109e3279d48f3fe85e",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/zara.webp",
+    "source": "https://framerusercontent.com/images/01BfkHr3gpc6Hx4KaQmdOAfzEMg.png?width=1080&height=1080",
+    "bytes": 82412,
+    "sha256": "137a6e7dd6e7759515aeedde7764900025a8374eb539a76282f98c9bc2a7ab27",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/lucas.webp",
+    "source": "https://framerusercontent.com/images/rRxoZdlBSwp4yAd47wxWkxpI7s.png?width=1080&height=1080",
+    "bytes": 82528,
+    "sha256": "53e56dd6f6c1824dccd96760c94e3866376770eaeb4f5ccfc6c9d2b32cbb9bfe",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/caleb.webp",
+    "source": "https://framerusercontent.com/images/7krm8ex97ImQRE2qpsrNHhHGA0.png?width=1080&height=1080",
+    "bytes": 113330,
+    "sha256": "0dc912d3491f15555c24087c8fc018c629fe6c9f89d8803b35876d65c2812fe6",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/david.webp",
+    "source": "https://framerusercontent.com/images/OGtOMTsrfmphGxS9js9Hro785Qc.png?width=1080&height=1080",
+    "bytes": 83180,
+    "sha256": "0735f5393dbb9a141bf9401ebb4ef8a17d1e4fd05c89f6d085dee29a63d4b105",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/emily.webp",
+    "source": "https://framerusercontent.com/images/NJLB5NgRBfBsEOYYeh8uGLEI.png?width=1080&height=1080",
+    "bytes": 113046,
+    "sha256": "372a2f7946eaf2e9342db962bf9dec99dbbb141080bfe2ce79a3aa8200950597",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/blog-one.webp",
+    "source": "https://framerusercontent.com/images/YwIhPfQ8K4Fgzo5SpylZ8tGM.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 234258,
+    "sha256": "9967d767c5f84703235051495c4bce015a73e774c603999b156912c69bfc6bb1",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/blog-two.webp",
+    "source": "https://framerusercontent.com/images/EYrdEUjCAFtFMOzFYKMoKo9WgGg.jpg?scale-down-to=2048&width=2400&height=1349",
+    "bytes": 338246,
+    "sha256": "628f7482d561d467ece6070e1aeccea5f4ce809d39262afd47bad7d928278ce2",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/blog-three.webp",
+    "source": "https://framerusercontent.com/images/8o7XjxnNLP5BHKNv9VP7zoLH1LA.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 570782,
+    "sha256": "a27a22465b2243ab5b8008824ecbbbd511f96bd127500fb680611d1ac5f95c3e",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/blog-four.webp",
+    "source": "https://framerusercontent.com/images/XFmScSBr5VwwqdQPf3idXTetA.jpg?scale-down-to=2048&width=2400&height=1601",
+    "bytes": 1113436,
+    "sha256": "a7004b86363bed6c814f8b11fe6dc9027db5eaf81e4ab2454d6e86adbed3a50b",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/blog-five.webp",
+    "source": "https://framerusercontent.com/images/qZxJ9a6t7Olz9zJnExFp9i1s0.jpg?scale-down-to=2048&width=2400&height=1600",
+    "bytes": 264066,
+    "sha256": "fe222bf0ce7ca6bdaf81bcbcd7bf9fcaded561aeae8d49c675f94ea458cdd876",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/blog-six.webp",
+    "source": "https://framerusercontent.com/images/m9aS6rMPQ2Gbh8hAYstqDDU8Io.jpg?scale-down-to=2048&width=2400&height=2129",
+    "bytes": 763560,
+    "sha256": "2e42e8c2b61147e9fcb0deaf5e2f6f654a82fa13152328cb671a315d9bd716f5",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/videos/match-two.mp4",
+    "source": "https://www.pexels.com/download/video/28870860/",
+    "bytes": 7153112,
+    "sha256": "1f9424e60fa3c7f72e333d09c545ec5fab695556bea136c1523f8f24639178a2",
+    "transformation": "本机WSL FFmpeg：H.264、720p、25fps、CRF27、无音轨、faststart；原视频另存本机任务目录。",
+    "license": "Pexels视频，使用前核实许可"
+  },
+  {
+    "file": "public/templates/goalz/images/programs-hero.webp",
+    "source": "https://framerusercontent.com/images/fPGItk8eC6zucK1fwisgb9x0nTQ.jpg?scale-down-to=2048&width=2400&height=1349",
+    "bytes": 667952,
+    "sha256": "d7f3ef2e3381da3d32e108f29d9ef36dc9a037f3dc515a705bfdff301d18325b",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/course-keeper.webp",
+    "source": "https://framerusercontent.com/images/B4wII3TVIAQ199vQivgjJz6NzAk.png?width=1200&height=951",
+    "bytes": 52388,
+    "sha256": "b5e7b50286071ef4148e603f4c1341050b87b27a4592a33fb7d1fd217a9b3fb6",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/course-group.webp",
+    "source": "https://framerusercontent.com/images/VtqvBltBhIolpd0Lqw1t6hHU054.jpg?width=1500&height=1001",
+    "bytes": 165170,
+    "sha256": "d722fa2dc1a6d446298326156e91b473f18fa000655133c46d7fb303bc05d97d",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/course-tactics.webp",
+    "source": "https://framerusercontent.com/images/yvzsdkPZ057sK828xjSHirDds.jpg?scale-down-to=1024&width=1920&height=3414",
+    "bytes": 101054,
+    "sha256": "4df1fc7c8e8a6e03c5d91ad2c6a5e0b7a09355cdc1ef64cf7a66b1fc76bae7c4",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/course-performance.webp",
+    "source": "https://framerusercontent.com/images/S3scChY0xMzLS5d0BwLNlnbES5g.jpg?scale-down-to=1024&width=2400&height=3609",
+    "bytes": 214334,
+    "sha256": "219e234d4e9423989638eea808c3cab27ac947da480abb36af3318d96e44ee9d",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/register-hero.webp",
+    "source": "https://framerusercontent.com/images/8frELYmTLnyOmTFdKLZCoUgR7w.jpg?scale-down-to=2048&width=2400&height=1700",
+    "bytes": 725598,
+    "sha256": "3f54d546e2004570e7e46e67704136bef80f209da94765dd22e0f12fd196978f",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/faq-hero.webp",
+    "source": "https://framerusercontent.com/images/ehL0QG4EPsejgUZUtzzovB0cMDY.jpg?scale-down-to=2048&width=2400&height=1601",
+    "bytes": 691344,
+    "sha256": "a6ca9c1bb2cead68957dfb5578e730afca2684dc8c881b03ac653ec7cc260a25",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/coaches-hero.webp",
+    "source": "https://framerusercontent.com/images/7suXESK2S61tz4m790NmhBp77mA.jpg?scale-down-to=2048&width=2400&height=1641",
+    "bytes": 514838,
+    "sha256": "ab8718be878488a90ab0a86168234aec86873d4ebc478f48e8143426b0c92855",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/founder.webp",
+    "source": "https://framerusercontent.com/images/shlreMNz2SqsxXUlpVDWJPCRA.png?width=800&height=1200",
+    "bytes": 141062,
+    "sha256": "41abc249b4675dc5dcdd1010efe34a45257b422a746d6e3fa4025520a25b5c83",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/membership-hero.webp",
+    "source": "https://framerusercontent.com/images/wDc7QxpA5ezogTFqwbMFVLbvxYE.jpg?width=1920&height=1280",
+    "bytes": 167898,
+    "sha256": "9b2695e3aae2957cdaf69e1c50f8c4d7976d4b8954041fd940bc983b1baa0e05",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/membership-keeper.webp",
+    "source": "https://framerusercontent.com/images/9XOc82znQlNGRnJdNHK5NiCEhec.jpg?scale-down-to=2048&width=2400&height=1350",
+    "bytes": 249050,
+    "sha256": "0465f1e366037116fc13ab6893c73f1e80ee0cd922034844c7bde8a2d0822d9c",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/detail-personal-trainings.webp",
+    "source": "https://framerusercontent.com/images/sDRQKUAKkmtI6PTacR8KLlkHD8E.jpg?width=1920&height=1313",
+    "bytes": 452354,
+    "sha256": "77a0d3ff1f63d3ce1ca63c53b7016bc5ac469badf2660305d54ce239595915ad",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/detail-player-camps-events.webp",
+    "source": "https://framerusercontent.com/images/ewqiBNe8xgB98rjoAx89F9mKNhE.jpg?width=1920&height=1079",
+    "bytes": 565799,
+    "sha256": "52e136a97a64a5f29dcf74efdcbde0fc85fcc7ae7991cf8c8a59ea31ee896707",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/detail-tactical-intelligence.webp",
+    "source": "https://framerusercontent.com/images/cJ5xi9y0t50Pxv9jIYQe5vJueE.jpg?width=1920&height=1087",
+    "bytes": 600826,
+    "sha256": "aee0c5ec014e3c5ff1f970ebab4f3283108b94792161dbca5e5feacd32613b25",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/detail-player-performance.webp",
+    "source": "https://framerusercontent.com/images/7YwNYlwnCchhW29QRvE81kl0M.jpg?width=1920&height=1281",
+    "bytes": 508956,
+    "sha256": "41841c7feafb2f621ba6cfbed70be6b235340acf1565e4355358410e21ddb0c8",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/detail-goalkeeper-academy.webp",
+    "source": "https://framerusercontent.com/images/GjbwHc99doP35RUBEe0le5LD2g.jpg?width=1920&height=1280",
+    "bytes": 469566,
+    "sha256": "70e3223e83bf31014ee604d0023bf996a5cd2ef94956878a664af90180a96884",
+    "license": "参考站素材，许可范围待核实"
+  },
+  {
+    "file": "public/templates/goalz/images/detail-group-trainings.webp",
+    "source": "https://framerusercontent.com/images/sYtHGgtkYLFjWegCeRnxbweWY54.jpg?width=1920&height=1277",
+    "bytes": 863693,
+    "sha256": "685d58504ca426f6e39dcbd6fea6d06ce73e8daee77131f10bb0e196532cb0f9",
+    "license": "参考站素材，许可范围待核实"
+  }
+]

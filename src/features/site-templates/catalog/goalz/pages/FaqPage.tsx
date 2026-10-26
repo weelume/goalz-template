@@ -1,0 +1,8 @@
+'use client'
+import {useState} from 'react'
+import {AnimatePresence,motion,useReducedMotion} from 'framer-motion'
+import type {SiteTemplatePageProps} from '../../../types'
+import {Shell} from '../components/Shell'
+import {Closing,PageHero,Pricing} from '../components/Sections'
+import {faqs,text} from '../content/data'
+export default function FaqPage({locale='zh',basePath}:SiteTemplatePageProps){const [open,setOpen]=useState<number|null>(null),reduced=useReducedMotion(),props={locale,basePath};return <Shell {...props}><PageHero {...props} picture="faq-hero.webp" eyebrow={text('常见问题','Frequently Asked Questions')} title={text('关于足球成长\n你想知道的答案','Your Questions, Answered')} description={text('了解加入学院、日常训练及持续成长的常见问题。','Everything you need to know about joining and growing with our academy successfully together.')} buttons={false}/><section className="gz-section gz-faq">{faqs.map((faq,i)=><div className="gz-faq-item" key={faq.q.en}><h2><button id={'gz-faq-button-'+i} aria-expanded={open===i} aria-controls={'gz-faq-answer-'+i} onClick={()=>setOpen(open===i?null:i)}><span>{faq.q[locale]}</span><span className={'gz-plus'+(open===i?' is-open':'')} aria-hidden="true">+</span></button></h2><AnimatePresence initial={false}>{open===i&&<motion.div id={'gz-faq-answer-'+i} role="region" aria-labelledby={'gz-faq-button-'+i} initial={{height:0,opacity:0}} animate={{height:'auto',opacity:1}} exit={{height:0,opacity:0}} transition={{duration:reduced?0:.35,ease:[.22,1,.36,1]}}><p>{faq.a[locale]}</p></motion.div>}</AnimatePresence></div>)}</section><Pricing {...props}/><Closing {...props}/></Shell>}

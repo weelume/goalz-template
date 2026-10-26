@@ -1,0 +1,9 @@
+import {text} from './data'
+export const players=[
+{slug:'luca-carver',name:'Luca Carver',position:text('中场','Midfielder'),image:'luca.webp',year:'2014',foot:text('右脚','Right'),stats:['16','3','7'],description:text('出色的控球、开阔的视野和快速决策，让他成为连接防守与进攻的纽带。','With excellent ball control, strong field vision and quick decisions, he links play from defense to attack.')},
+{slug:'zara-hoffman',name:'Zara Hoffman',position:text('后卫','Defender'),image:'zara.webp',year:'2014',foot:text('右脚','Right'),stats:['16','1','2'],description:text('以超越年龄的成熟阅读比赛，总能出现在球队需要的位置。','Zara reads the game with impressive maturity, positioning herself exactly where the team needs her.')},
+{slug:'lucas-bennett',name:'Lucas Bennett',position:text('守门员','Goalkeeper'),image:'lucas.webp',year:'2014',foot:text('左脚','Left'),stats:['16','18','6'],description:text('自信的扑救、敏锐的进攻判断与清晰沟通，让他成为后防可靠的伙伴。','His confident saves, sharp reading of attacks and clear communication make him a trusted leader at the back.')},
+{slug:'caleb-turner',name:'Caleb Turner',position:text('前锋','Forward'),image:'caleb.webp',year:'2013',foot:text('右脚','Right'),stats:['14','18','6'],description:text('充满活力、无所畏惧，始终渴望下一个进球，为每场比赛带来动力。','Energetic, fearless, and always hungry for the next goal, he brings excitement and drive to every match.')},
+{slug:'david-wilson',name:'David Wilson',position:text('右后卫','Right Defender'),image:'david.webp',year:'2014',foot:text('右脚','Right'),stats:['13','1','2'],description:text('冷静、专注而可靠，是每位教练都看重的坚实后卫。','Calm, focused, and always dependable, David is the kind of strong defender every coach values on the pitch.')},
+{slug:'emily-davis',name:'Emily Davis',position:text('守门员','Goalkeeper'),image:'emily.webp',year:'2015',foot:text('左脚','Left'),stats:['14','9','1'],description:text('在压力下依然出色，展现敏锐的比赛意识，为队伍带来自信。','Emily excels under pressure, shows impressive game awareness for her age, and brings confidence.')},
+]

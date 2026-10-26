@@ -1,0 +1,10 @@
+'use client'
+import Link from 'next/link'
+import type {SiteTemplatePageProps} from '../../../types'
+import {Shell} from '../components/Shell'
+import {Closing,PageHero} from '../components/Sections'
+import {Reveal} from '../components/Motion'
+import {events} from '../content/events'
+import {text} from '../content/data'
+import {image} from '../config/brand'
+export default function EventsPage({locale='zh',basePath}:SiteTemplatePageProps){const props={locale,basePath};return <Shell {...props}><PageHero {...props} picture="events-hero.webp" eyebrow={text('雄心与竞技相遇','Where Ambition Meets Competition')} title={text('在竞争中\n发现更好的自己','Drive and Rivalry')} description={text('每场活动都为成长而设计，享受健康竞争，在球场内外创造难忘时刻。','Each event is designed to support player growth, foster healthy competition, and create memorable moments on and off the pitch.')}/><section className="gz-section gz-events"><p className="gz-demo">{locale==='zh'?'活动、日期与场地均为模板展示示例，当前不提供真实报名。':'Illustrative events, dates and venues. No actual event registration is offered.'}</p>{events.map((event,i)=><Reveal delay={i%2*.08} key={event.slug}><Link className="gz-event" href={basePath+'/events/'+event.slug}><div><span className="gz-eyebrow">{event.age}</span><h2>{event.title[locale]}</h2><p>{event.description[locale]}</p><div className="gz-event-meta"><span>{event.date[locale]}</span><span>{event.location[locale]}</span></div></div><div className="gz-image-wrap"><img src={image(event.image)} alt={event.title[locale]} loading="lazy"/></div></Link></Reveal>)}</section><Closing {...props}/></Shell>}

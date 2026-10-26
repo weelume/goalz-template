@@ -1,0 +1,92 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与联系方式",
+      "description": "修改独立品牌及示例联系信息",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/goalz/config/brand.ts",
+          "kind": "file",
+          "purpose": "品牌与联系配置"
+        },
+        {
+          "path": "src/features/site-templates/catalog/goalz/host.tsx",
+          "kind": "file",
+          "purpose": "通用品牌注入"
+        }
+      ],
+      "constraints": [
+        "中英文一起维护，不写入真实私密配置"
+      ],
+      "checks": [
+        "typecheck",
+        "build"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "页面与双语内容",
+      "description": "修改课程、教练、赛事与FAQ",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/goalz/content",
+          "kind": "directory",
+          "purpose": "双语内容集合"
+        },
+        {
+          "path": "src/features/site-templates/catalog/goalz/pages",
+          "kind": "directory",
+          "purpose": "页面组合"
+        },
+        {
+          "path": "src/features/site-templates/catalog/goalz/meta.ts",
+          "kind": "file",
+          "purpose": "页面注册"
+        }
+      ],
+      "constraints": [
+        "页面变更同步双语注册与预览"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题与动效",
+      "description": "修改主题令牌、图片视频及动效",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/goalz/theme.css",
+          "kind": "file",
+          "purpose": "主题与三端样式"
+        },
+        {
+          "path": "src/features/site-templates/catalog/goalz/components",
+          "kind": "directory",
+          "purpose": "公共组件与动效"
+        },
+        {
+          "path": "public/templates/goalz",
+          "kind": "directory",
+          "purpose": "本地运行素材"
+        }
+      ],
+      "constraints": [
+        "保留减少动态偏好与键盘操作",
+        "素材变更同步来源与许可"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build"
+      ]
+    }
+  ]
+}

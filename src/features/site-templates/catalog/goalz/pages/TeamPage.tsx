@@ -1,0 +1,10 @@
+'use client'
+import Link from 'next/link'
+import type {SiteTemplatePageProps} from '../../../types'
+import {Shell} from '../components/Shell'
+import {Closing,PageHero} from '../components/Sections'
+import {Reveal} from '../components/Motion'
+import {players} from '../content/players'
+import {text} from '../content/data'
+import {image} from '../config/brand'
+export default function TeamPage({locale='zh',basePath}:SiteTemplatePageProps){const props={locale,basePath};return <Shell {...props}><PageHero {...props} picture="team-hero.webp" eyebrow={text('少年队 · 7–12 岁','Juniors · Ages 7–12')} title={text('让热爱\n驱动每一次成长','Passion Drives Growth')} description={text('在这里，年轻球员把好奇变成能力，在团队中建立技术、自信与友谊。','The Juniors Team is where young players begin turning curiosity into real football ability.')}/><section className="gz-section"><div className="gz-coach-grid">{players.map((player,i)=><Reveal delay={i%3*.08} key={player.slug}><Link className="gz-player-card" href={basePath+'/team/'+player.slug}><div className="gz-image-wrap"><img src={image(player.image)} alt={player.name} loading="lazy"/></div><p className="gz-eyebrow">{player.position[locale]}</p><h2>{player.name}</h2><p>{player.description[locale]}</p></Link></Reveal>)}</div></section><Closing {...props}/></Shell>}

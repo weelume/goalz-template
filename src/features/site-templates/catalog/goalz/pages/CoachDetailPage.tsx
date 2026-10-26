@@ -1,0 +1,10 @@
+'use client'
+import {usePathname} from 'next/navigation'
+import type {SiteTemplatePageProps} from '../../../types'
+import {Shell} from '../components/Shell'
+import {Action,Closing,Pricing,Reviews} from '../components/Sections'
+import {coaches} from '../content/data'
+import {coachProfiles} from '../content/coachProfiles'
+import {image} from '../config/brand'
+import {Reveal} from '../components/Motion'
+export default function CoachDetailPage({locale='zh',basePath}:SiteTemplatePageProps){const path=usePathname(),coach=coaches.find(c=>path.endsWith('/'+c.slug)),profile=coachProfiles.find(c=>path.endsWith('/'+c.slug));if(!coach||!profile)throw new Error('未知教练路由：'+path);const props={locale,basePath};return <Shell {...props}><section className="gz-section gz-coach-detail"><Reveal><img src={image(coach.image)} alt={coach.name}/></Reveal><Reveal delay={.1}><p className="gz-eyebrow">{locale==='zh'?'教练档案 · 示例资料':'Coach Profile · Demonstration'}</p><h1>{coach.name}</h1><p className="gz-eyebrow">{profile.position[locale]}</p><p>{locale==='zh'?'执教经验：':'Experience: '}{coach.years}{locale==='zh'?' 年':' years'}</p><h2>{locale==='zh'?'资质与学习经历':'Qualifications'}</h2><ul className="gz-qualifications">{profile.qualifications.map(item=><li key={item.en}>{item[locale]}</li>)}</ul><Action href={basePath+'/programs'}>{locale==='zh'?'了解训练课程':'Our Programs'}</Action></Reveal></section><article className="gz-section gz-article"><h2>{locale==='zh'?'关于 '+coach.name:'About '+coach.name.split(' ')[0]}</h2>{profile.paragraphs.map((paragraph,i)=><p key={i}>{paragraph[locale]}</p>)}</article><Reviews {...props}/><Pricing {...props}/><Closing {...props}/></Shell>}

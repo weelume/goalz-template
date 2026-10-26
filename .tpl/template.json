@@ -1,0 +1,431 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "goalz",
+  "version": "1.0.0",
+  "name": "Goalz 足球训练学院",
+  "localizedNames": {
+    "en": "Goalz Football Academy"
+  },
+  "gitUrl": "https://github.com/weelume/goalz-template",
+  "sceneId": "landing-page",
+  "listed": false,
+  "tags": [
+    "足球",
+    "双语",
+    "视频",
+    "动效"
+  ],
+  "summary": "足球训练学院展示模板，包含课程、教练、赛事、图库与本地校验表单。",
+  "accentColor": "#d7efc2",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Goalz desktop 首页",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-features.webp",
+      "alt": "Goalz desktop 训练课程",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "programs"
+    },
+    {
+      "src": "assets/desktop-blog.webp",
+      "alt": "Goalz desktop 学院博客",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "Goalz desktop 联系学院",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "contact-us"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Goalz mobile 首页",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-features.webp",
+      "alt": "Goalz mobile 训练课程",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "programs"
+    },
+    {
+      "src": "assets/mobile-blog.webp",
+      "alt": "Goalz mobile 学院博客",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "Goalz mobile 联系学院",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "contact-us"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "about-us",
+          "title": "关于学院",
+          "localizedTitles": {
+            "en": "About Us"
+          }
+        },
+        {
+          "slug": "programs",
+          "title": "训练课程",
+          "localizedTitles": {
+            "en": "Programs"
+          }
+        },
+        {
+          "slug": "coaches",
+          "title": "教练团队",
+          "localizedTitles": {
+            "en": "Coaches"
+          }
+        },
+        {
+          "slug": "team",
+          "title": "球员团队",
+          "localizedTitles": {
+            "en": "Team"
+          }
+        },
+        {
+          "slug": "academy-schedule",
+          "title": "训练课表",
+          "localizedTitles": {
+            "en": "Schedule"
+          }
+        },
+        {
+          "slug": "membership-plans",
+          "title": "会员计划",
+          "localizedTitles": {
+            "en": "Membership Plans"
+          }
+        },
+        {
+          "slug": "blog",
+          "title": "学院博客",
+          "localizedTitles": {
+            "en": "Blog"
+          }
+        },
+        {
+          "slug": "events",
+          "title": "活动资讯",
+          "localizedTitles": {
+            "en": "Events"
+          }
+        },
+        {
+          "slug": "gallery",
+          "title": "训练图库",
+          "localizedTitles": {
+            "en": "Gallery"
+          }
+        },
+        {
+          "slug": "faq",
+          "title": "常见问题",
+          "localizedTitles": {
+            "en": "FAQ"
+          }
+        },
+        {
+          "slug": "contact-us",
+          "title": "联系学院",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "register",
+          "title": "加入学院",
+          "localizedTitles": {
+            "en": "Register"
+          }
+        },
+        {
+          "slug": "privacy",
+          "title": "隐私说明",
+          "localizedTitles": {
+            "en": "Privacy"
+          }
+        },
+        {
+          "slug": "terms",
+          "title": "使用条款",
+          "localizedTitles": {
+            "en": "Terms"
+          }
+        },
+        {
+          "slug": "programs/goalkeeper-academy",
+          "title": "守门员学院",
+          "localizedTitles": {
+            "en": "Goalkeeper Academy"
+          }
+        },
+        {
+          "slug": "programs/group-trainings",
+          "title": "小组训练",
+          "localizedTitles": {
+            "en": "Group Trainings"
+          }
+        },
+        {
+          "slug": "programs/personal-trainings",
+          "title": "私人训练",
+          "localizedTitles": {
+            "en": "Personal Trainings"
+          }
+        },
+        {
+          "slug": "programs/player-camps-events",
+          "title": "训练营与活动",
+          "localizedTitles": {
+            "en": "Player Camps & Events"
+          }
+        },
+        {
+          "slug": "programs/tactical-intelligence",
+          "title": "战术意识",
+          "localizedTitles": {
+            "en": "Tactical Intelligence"
+          }
+        },
+        {
+          "slug": "programs/player-performance",
+          "title": "球员表现",
+          "localizedTitles": {
+            "en": "Player Performance"
+          }
+        },
+        {
+          "slug": "coaches/marco-velasquez",
+          "title": "Marco Velasquez",
+          "localizedTitles": {
+            "en": "Marco Velasquez"
+          }
+        },
+        {
+          "slug": "coaches/samira-holt",
+          "title": "Samira Holt",
+          "localizedTitles": {
+            "en": "Samira Holt"
+          }
+        },
+        {
+          "slug": "coaches/theo-markovic",
+          "title": "Theo Markovic",
+          "localizedTitles": {
+            "en": "Theo Markovic"
+          }
+        },
+        {
+          "slug": "coaches/lena-duarte",
+          "title": "Lena Duarte",
+          "localizedTitles": {
+            "en": "Lena Duarte"
+          }
+        },
+        {
+          "slug": "coaches/aaron-rossi",
+          "title": "Aaron Rossi",
+          "localizedTitles": {
+            "en": "Aaron Rossi"
+          }
+        },
+        {
+          "slug": "coaches/maya-kessler",
+          "title": "Maya Kessler",
+          "localizedTitles": {
+            "en": "Maya Kessler"
+          }
+        },
+        {
+          "slug": "events/velocity-cup",
+          "title": "极速杯",
+          "localizedTitles": {
+            "en": "Velocity Cup"
+          }
+        },
+        {
+          "slug": "events/continental-youth-cup",
+          "title": "洲际青年杯",
+          "localizedTitles": {
+            "en": "Continental Youth Cup"
+          }
+        },
+        {
+          "slug": "events/academy-masters-cup",
+          "title": "学院大师杯",
+          "localizedTitles": {
+            "en": "Academy Masters Cup"
+          }
+        },
+        {
+          "slug": "events/future-pros-invitational",
+          "title": "未来职业球员邀请赛",
+          "localizedTitles": {
+            "en": "Future Pros Invitational"
+          }
+        },
+        {
+          "slug": "events/champions-league",
+          "title": "冠军联赛",
+          "localizedTitles": {
+            "en": "Champions League"
+          }
+        },
+        {
+          "slug": "events/elite-rising-stars-cup",
+          "title": "精英新星杯",
+          "localizedTitles": {
+            "en": "Elite Rising Stars Cup"
+          }
+        },
+        {
+          "slug": "team/luca-carver",
+          "title": "Luca Carver",
+          "localizedTitles": {
+            "en": "Luca Carver"
+          }
+        },
+        {
+          "slug": "team/zara-hoffman",
+          "title": "Zara Hoffman",
+          "localizedTitles": {
+            "en": "Zara Hoffman"
+          }
+        },
+        {
+          "slug": "team/lucas-bennett",
+          "title": "Lucas Bennett",
+          "localizedTitles": {
+            "en": "Lucas Bennett"
+          }
+        },
+        {
+          "slug": "team/caleb-turner",
+          "title": "Caleb Turner",
+          "localizedTitles": {
+            "en": "Caleb Turner"
+          }
+        },
+        {
+          "slug": "team/david-wilson",
+          "title": "David Wilson",
+          "localizedTitles": {
+            "en": "David Wilson"
+          }
+        },
+        {
+          "slug": "team/emily-davis",
+          "title": "Emily Davis",
+          "localizedTitles": {
+            "en": "Emily Davis"
+          }
+        },
+        {
+          "slug": "blog/from-play-to-progress-the-importance-of-early-motor-skills-growth",
+          "title": "从玩耍到进步：早期运动能力为何重要",
+          "localizedTitles": {
+            "en": "From Play to Progress: The Importance of Early Motor Skills Growth"
+          }
+        },
+        {
+          "slug": "blog/rising-talents-meet-the-future-professional-stars-of-our-teens-team",
+          "title": "成长中的天赋：认识青年队的未来之星",
+          "localizedTitles": {
+            "en": "Rising Talents: Meet the Future Professional Stars of Our Teens Team"
+          }
+        },
+        {
+          "slug": "blog/goalkeepers-of-tomorrow-what-makes-a-truly-great-young-shot-stopper",
+          "title": "未来守门员：优秀年轻门将的关键能力",
+          "localizedTitles": {
+            "en": "Goalkeepers of Tomorrow: What Makes a Truly Great Young Shot-Stopper?"
+          }
+        },
+        {
+          "slug": "blog/training-smarter-the-techniques-every-junior-player-should-maste",
+          "title": "更聪明地训练：少年球员应掌握的技术",
+          "localizedTitles": {
+            "en": "Training Smarter: The Techniques Every Junior Player Should Master"
+          }
+        },
+        {
+          "slug": "blog/inside-the-velocity-cup-the-tournament-that-transforms-young-players",
+          "title": "走进极速杯：让年轻球员成长的赛事",
+          "localizedTitles": {
+            "en": "Inside the Velocity Cup: The Tournament That Transforms Young Players"
+          }
+        },
+        {
+          "slug": "blog/building-confidence-through-football-how-young-players-grow-on-the-pitch",
+          "title": "通过足球建立自信：年轻球员如何在场上成长",
+          "localizedTitles": {
+            "en": "Building Confidence Through Football: How Young Players Grow on the Pitch"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "unlicensed",
+    "file": "docs/LICENSE.md",
+    "summary": "源码、参考设计、字体、图片和视频分别受各自权利约束，商业及再分发授权待核实。",
+    "redistributionAllowed": false
+  }
+}

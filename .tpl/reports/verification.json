@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-26T11:34:42.498Z",
+  "sourceCommit": null,
+  "sourceDigest": "64879667ea9fb65f87587053bc0a49912b9c4f28906840bb83e96afb2e5a1689",
+  "environment": {
+    "platform": "linux-wsl",
+    "arch": "x64",
+    "node": "24.16.0",
+    "packageManager": "pnpm@9.15.4",
+    "cleanDirectory": false,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T11:33:55.088Z",
+      "finishedAt": "2026-10-26T11:33:56.296Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T11:33:56.299Z",
+      "finishedAt": "2026-10-26T11:33:58.735Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T11:33:58.737Z",
+      "finishedAt": "2026-10-26T11:33:59.230Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T11:33:59.233Z",
+      "finishedAt": "2026-10-26T11:34:17.341Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-26T11:33:15.711Z"
+    }
+  ],
+  "limitations": [
+    "本报告通过的是工程检查与生产服务；不表示原站完整视觉及逐动画等效性通过。",
+    "源码在 Linux 文件系统同步目录中验证，不是独立 Git 克隆验收。",
+    "三端与动效实测范围及未验证项见 .tpl/docs/VERIFICATION.md 和 MOTION.md。",
+    "文章为主题双语改写；原站全部文章及精确动画时序尚未逐项比对。",
+    "素材商业和再分发授权未确认，模板不公开上架。"
+  ]
+}
