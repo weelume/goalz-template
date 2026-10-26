@@ -3,9 +3,9 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-26T11:46:30.254Z",
+  "checkedAt": "2026-10-26T12:32:59.211Z",
   "sourceCommit": null,
-  "sourceDigest": "70b8080b8f278ff2953fb1c682d7f2e67e5098c7174264675786b95cc44b03e2",
+  "sourceDigest": "8451c4c306c1c73cb462bf2cdb246ff00004b157a09af58e2f4690dbd38ca6a4",
   "environment": {
     "platform": "linux-wsl",
     "arch": "x64",
@@ -25,8 +25,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T11:45:25.425Z",
-      "finishedAt": "2026-10-26T11:45:27.009Z"
+      "startedAt": "2026-10-26T12:28:31.279Z",
+      "finishedAt": "2026-10-26T12:28:32.977Z"
     },
     {
       "id": "lint",
@@ -38,8 +38,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T11:45:27.014Z",
-      "finishedAt": "2026-10-26T11:45:30.156Z"
+      "startedAt": "2026-10-26T12:28:32.982Z",
+      "finishedAt": "2026-10-26T12:28:35.770Z"
     },
     {
       "id": "test",
@@ -51,8 +51,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T11:45:30.159Z",
-      "finishedAt": "2026-10-26T11:45:30.732Z"
+      "startedAt": "2026-10-26T12:28:35.773Z",
+      "finishedAt": "2026-10-26T12:28:36.242Z"
     },
     {
       "id": "build",
@@ -64,8 +64,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T11:45:30.735Z",
-      "finishedAt": "2026-10-26T11:45:45.890Z"
+      "startedAt": "2026-10-26T12:28:36.245Z",
+      "finishedAt": "2026-10-26T12:28:54.113Z"
     }
   ],
   "services": [
@@ -73,14 +73,14 @@
       "id": "web",
       "status": "passed",
       "stopped": true,
-      "checkedAt": "2026-10-26T11:46:29.692Z"
+      "checkedAt": "2026-10-26T12:30:57.891Z"
     }
   ],
   "limitations": [
     "本报告通过的是工程检查与生产服务；不表示原站完整视觉及逐动画等效性通过。",
     "源码在 Linux 文件系统同步目录中验证，不是独立 Git 克隆验收。",
     "三端与动效实测范围及未验证项见 .tpl/docs/VERIFICATION.md 和 MOTION.md。",
-    "文章为主题双语改写；原站全部文章及精确动画时序尚未逐项比对。",
+    "六篇文章已逐项核对结构，正文为原创双语示例；精确动画时序尚未完整测量。",
     "素材商业和再分发授权未确认，模板不公开上架。"
   ]
 }
